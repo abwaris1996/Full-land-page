@@ -1,0 +1,84 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #926239;
+}
+
+#showcase
+{
+    background-image: url(../banner.jpg);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+#showcase h1 
+{
+    font-size: 50px;
+   
+  
+}
+
+#showcase .button
+{
+    font-size: 18px;
+    border: 1px #926239 solid ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #926239;
+}
+#showcase p 
+{
+    font-size: 18px;
+}
+
+#showcase .button:hover
+{
+    background: rgb(207, 225, 213);
+}
+
+#section-a
+{
+    padding: 20px;
+    background: #926239;
+    color: #fff;
+    text-align: justify;
+}
+#section-b
+{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: justify;
+}
+#section-c
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#section-c div 
+{
+    padding: 20px;
+}
+
+#section-c #box-1, #section-c #box-3
+{
+    background: #926239;
+    color: #fff;
+}
